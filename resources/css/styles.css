@@ -72,10 +72,28 @@ h2 {
 
 #footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 100px;
-    background: linear-gradient(rgb(198, 253, 216), rgb(215, 215, 247));
+    align-items: center;
+    height: none;
+    background: linear-gradient(rgb(161, 183, 190), rgb(165, 219, 190));
     text-shadow: 2px 2px 2px white;
+}
+
+.footer-sec {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.anchor-top:hover {
+    cursor:pointer;
 }
 
 
